@@ -1,0 +1,26 @@
+
+.App {
+    text-align: left;
+}
+
+.heading-meta {
+    color: #FF3366;
+}
+
+.about-img{
+    width:50%;
+    height:300px;
+}
+
+.colorlib-about{
+    padding-top:3em;
+
+}
+
+ul.intro-list{
+list-style: none;
+text-transform: uppercase;
+padding-left: 0;
+letter-spacing: 2px;
+font-weight: normal;
+}
