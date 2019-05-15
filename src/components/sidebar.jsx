@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
 
 class Sidebar extends Component {
@@ -19,12 +20,12 @@ class Sidebar extends Component {
                 <div id="colorlib-logo"><a href="/"><img src={process.env.PUBLIC_URL + '/images/my-logo.png'}></img></a></div>
                 <nav id="colorlib-main-menu" role="navigation">
                     <ul>
-                    <li className={(this.props.activeclass == "Home") ? "colorlib-active" : "" }><a href="/">Home</a></li>
-                    <li className={(this.props.activeclass == "Work") ? "colorlib-active" : "" }><a href="/work">Work</a></li>
-                    <li className={(this.props.activeclass == "About") ? "colorlib-active" : "" }><a href="/about">About</a></li>
-                    <li className={(this.props.activeclass == "Art") ? "colorlib-active" : "" }><a href="/art">Art</a></li>
-                    <li className={(this.props.activeclass == "Blog") ? "colorlib-active" : "" }><a href="/blog">Blog</a></li>
-                    <li className={(this.props.activeclass == "Contact") ? "colorlib-active" : "" }><a href="/contact">Contact</a></li>
+                    <li className={(this.props.activeclass == "Home") ? "colorlib-active" : "" }><Link to="/">Home</Link></li>
+                    <li className={(this.props.activeclass == "Work") ? "colorlib-active" : "" }><Link to="/work">Work</Link></li>
+                    <li className={(this.props.activeclass == "About") ? "colorlib-active" : "" }><Link to="/about">About</Link></li>
+                    <li className={(this.props.activeclass == "Art") ? "colorlib-active" : "" }><Link to="/art">Art</Link></li>
+                    <li className={(this.props.activeclass == "Blog") ? "colorlib-active" : "" }><Link to="/blog">Blog</Link></li>
+                    <li className={(this.props.activeclass == "Contact") ? "colorlib-active" : "" }><Link to="/contact">Contact</Link></li>
                     </ul>
                 </nav>
                 <div className="colorlib-footer">

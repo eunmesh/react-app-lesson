@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './about.css';
+import {Link} from 'react-router-dom'
 
 class About extends Component{
 
@@ -11,11 +12,10 @@ render(){
                     <div className="container-fluid">
                         <div className="row">
                         <div className="col-md-5">
-                            <div className="about-img animate-box selfie" data-animate-effect="fadeInLeft" style={{backgroundImage: 'url(/images/unmesh-selfie.png)'}} />
-                            <div className="row">
-                                <div className="col-md-12 btn-center"><a href="/images/Resume-UX Architect-Unmesh Patki.pdf" class="btn btn-primary btn-learn" target="_blank">Download CV!</a></div>
-                            </div>
-                            
+                            <div className="about-img animate-box selfie" data-animate-effect="fadeInLeft"> <img className="" src={process.env.PUBLIC_URL + '/images/unmesh-selfie.png'}/></div>
+                                
+                            <div className="col-md-12 btn-center"><Link to="/images/Resume.pdf" class="btn btn-primary btn-learn" target="_blank">Download CV!</Link></div>
+                          
                         </div>
                         <div className="col-md-7 animate-box" data-animate-effect="fadeInLeft">
                             <div className="about-desc">

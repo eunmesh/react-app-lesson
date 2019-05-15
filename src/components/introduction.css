@@ -7,9 +7,12 @@
     color: #FF3366;
 }
 
-.about-img{
-    width:50%;
+img.about-img{
+    margin-top:15px;
+    width:auto;
     height:300px;
+    right:0px;
+    top:-20px;
 }
 
 .colorlib-about{
@@ -17,14 +20,16 @@
 
 }
 
+h3{
+    font-weight: 600;
+}
+
 ul.intro-list{
 list-style: none;
 text-transform: uppercase;
-padding-left: 0;
 letter-spacing: 2px;
 font-weight: normal;
+padding-inline-start: 0px;
 }
 
-.myphoto{
-    background-image: url('/images/photo-unmesh.png');
-}
+
