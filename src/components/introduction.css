@@ -24,3 +24,7 @@ padding-left: 0;
 letter-spacing: 2px;
 font-weight: normal;
 }
+
+.myphoto{
+    background-image: url('/images/photo-unmesh.png');
+}

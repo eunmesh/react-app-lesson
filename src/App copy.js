@@ -11,9 +11,9 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter basename='/portfolio'>
-      <switch>
+      
       {/*  ---------SIDE BAR AND HOME MODULE-------------------- */}
-       <Route exact path='/' render={()=>(
+       <Route exact={true} path='/' render={()=>(
         
             <div className="App" id="colorlib-page">
               <Sidebar activeclass="Home"></Sidebar> 
@@ -25,7 +25,7 @@ class App extends Component {
           {/*  ---------TBD: SIDE BAR AND WORK MODULE---------------- */}
 
           {/*  ---------SIDE BAR AND ABOUT MODULE-------------------- */}
-        <Route path='/about' render= {()=>(
+        <Route exact={true} path='/about' render= {()=>(
 
             <div className="App" id="colorlib-page">
               <Sidebar activeclass="About"></Sidebar>
@@ -34,15 +34,13 @@ class App extends Component {
                   </div>
             </div>
           )}/>
-
-          
       
           {/*  ---------TBD: SIDE BAR AND ART MODULE------------------ */}
 
           {/*  ---------TBD: SIDE BAR AND BLOG MODULE----------------- */}
 
           {/*  ---------TBD: SIDE BAR AND CONTACT MODULE-------------- */}
-        </switch>
+
       </BrowserRouter>
     );
   }
