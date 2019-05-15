@@ -1,0 +1,17 @@
+
+
+.about-img{
+    top:-50px;
+    right:-100px;
+    height:400px;
+}
+.container-fluid ul{
+    padding-inline-start: 18px;
+}
+.btn{
+    font-weight: 700;
+}
+.btn-center{
+    text-align: center;
+    margin-bottom: 2em;
+}

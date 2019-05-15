@@ -20,7 +20,7 @@ class Introduction extends Component {
                     <div className="container-fluid">
                         <div className="row">
                         <div className="col-md-6">
-                            <div className="about-img animate-box" data-animate-effect="fadeInLeft" style={{backgroundImage: 'url(images/photo-unmesh.png)'}} />
+                            <div className="about-img animate-box" data-animate-effect="fadeInLeft" style={{backgroundImage: 'url(/images/photo-unmesh.png)'}} />
                         </div>
                         <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
                             <div className="about-desc">
