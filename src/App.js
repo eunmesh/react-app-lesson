@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <HashRouter>
       
-      
+      <switch>
       {/*  ---------SIDE BAR AND HOME MODULE-------------------- */}
        <Route exact path='/' render={()=>(
         
@@ -51,8 +51,10 @@ class App extends Component {
 
           {/*  ---------TBD: SIDE BAR AND CONTACT MODULE-------------- */}
         
-        
+        </switch>
       </HashRouter>
+
+      
     );
   }
 }
