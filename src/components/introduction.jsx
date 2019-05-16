@@ -7,18 +7,9 @@ class Introduction extends Component {
     render() {
         return (
             <div>
-                {/* <aside id="colorlib-hero" class="js-fullheight">
-				    <div class="flexslider js-fullheight">
-                        <div class="intro-wrapper">
-                            <p>dummy text</p>
-                        </div>
-                
-                    </div>
-                </aside> */}
-
-
+               {/* animate-box className removed from line number 15 and 17 and all pages load successfully*/}
                 <div className="colorlib-about">
-                    <div className="container">
+                    <div className="container-fluid">
                         <div className="row">
                         <div className="col-md-6">
                             <div className="animate-box" data-animate-effect="fadeInLeft"><img className="about-img" src={process.env.PUBLIC_URL + '/images/photo-unmesh.png'}/></div>

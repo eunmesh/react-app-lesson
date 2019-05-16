@@ -7,14 +7,14 @@ class About extends Component{
 render(){
     return(
         <div>
-            
+            {/* animate-box removed from line#15 and 20 */}
             <div className="colorlib-about">
                     <div className="container-fluid">
                         <div className="row">
                         <div className="col-md-5">
-                            <div className="about-img animate-box selfie" data-animate-effect="fadeInLeft"> <img className="" src={process.env.PUBLIC_URL + '/images/unmesh-selfie.png'}/></div>
+                            <div className="about-img animate-box selfie" data-animate-effect="fadeInLeft"> <img className="" alt="My Awesome Selfie" src={process.env.PUBLIC_URL + '/images/unmesh-selfie.png'}/></div>
                                 
-                            <div className="col-md-12 btn-center"><Link to="/images/Resume.pdf" class="btn btn-primary btn-learn" target="_blank">Download CV!</Link></div>
+                            <div className="col-md-12 btn-center"><Link to="/images/Resume.pdf" class="btn btn-primary btn-learn" target="_blank" >Download CV!</Link></div>
                           
                         </div>
                         <div className="col-md-7 animate-box" data-animate-effect="fadeInLeft">

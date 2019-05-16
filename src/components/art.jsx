@@ -6,7 +6,7 @@ class Art extends Component{
             return(
 
                 <div className="colorlib-about">
-                    <p>THE Art images will be displayed here.</p>
+                    <p><strong>WORK IN PROGRESS:</strong> THE Art images will be displayed here.</p>
                 </div>
             );
     }
