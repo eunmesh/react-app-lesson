@@ -18,7 +18,7 @@ class Introduction extends Component {
 
 
                 <div className="colorlib-about">
-                    <div className="container">
+                    <div className="container-fluid">
                         <div className="row">
                         <div className="col-md-6">
                             <div className="animate-box" data-animate-effect="fadeInLeft"><img className="about-img" src={process.env.PUBLIC_URL + '/images/photo-unmesh.png'}/></div>
