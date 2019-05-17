@@ -11,13 +11,17 @@ render(){
             <div className="colorlib-about">
                     <div className="container-fluid">
                         <div className="row">
-                        <div className="col-md-5">
-                            <div className="about-img animate-box selfie" data-animate-effect="fadeInLeft"> <img className="" alt="My Awesome Selfie" src={process.env.PUBLIC_URL + '/images/unmesh-selfie.png'}/></div>
+                        {/* <div className="col-md-5">
+                            <div className="" data-animate-effect="fadeInLeft"> <img className="about-img" alt="My Awesome Selfie" src={process.env.PUBLIC_URL + '/images/unmesh-selfie.png'}/></div>
                                 
                             <div className="col-md-12 btn-center"><Link to="/images/Resume.pdf" class="btn btn-primary btn-learn" target="_blank" >Download CV!</Link></div>
                           
-                        </div>
-                        <div className="col-md-7 animate-box" data-animate-effect="fadeInLeft">
+                        </div> */}
+
+
+                        {/* removed "in" from classname on line 57 from panel 1 */}
+                        <div className="col-md-4"></div>
+                        <div className="col-md-7" data-animate-effect="fadeInLeft">
                             <div className="about-desc">
                             <span className="heading-meta">Dear Visitor</span>
                             <h3>Hi! My name is Unmesh Patki!</h3>
@@ -27,7 +31,7 @@ render(){
                                     <li> I am a <strong>UX design professional</strong>.</li>
                                     <li> More than 14 years of experience in IT service and product industry.<strong>I help enterprise product design and development teams create powerful, valuable and profitable user experiences</strong>. </li>           
                                 </ul>
-                             <br/>
+                             
                                 <strong>Experience Highlights</strong>:
                                 <ul>
 
@@ -42,18 +46,18 @@ render(){
 
                             </p>
                             
-                            
+
                             </div>
                             <div className="fancy-collapse-panel">
                             <div className="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                 <div className="panel panel-default">
                                 <div className="panel-heading" role="tab" id="headingOne">
                                     <h4 className="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Education
+                                    <a className="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Education
                                     </a>
                                     </h4>
                                 </div>
-                                <div id="collapseOne" className="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div id="collapseOne" className="panel-collapse collapse out" role="tabpanel" aria-labelledby="headingOne">
                                     <div className="panel-body">
                                     
                                         <div className="col-md-12">
@@ -112,8 +116,20 @@ render(){
                                 </div>
                             </div>
                             </div>
+
+                            <div className="row">
+                            <div className="col-md-12 btn-center"><Link to="/images/Resume.pdf" class="btn btn-primary btn-learn" target="_blank" >Download CV!</Link></div>
+                            </div>
+
+                            
                         </div>
                         </div>
+
+                         
+
+                       
+
+
                     </div>
                 </div>
 

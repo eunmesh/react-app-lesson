@@ -12,9 +12,9 @@ class Introduction extends Component {
                     <div className="container-fluid">
                         <div className="row">
                         <div className="col-md-6">
-                            <div className="animate-box" data-animate-effect="fadeInLeft"><img className="about-img" src={process.env.PUBLIC_URL + '/images/photo-unmesh.png'}/></div>
+                            <div className="" data-animate-effect="fadeInLeft"><img className="about-img" src={process.env.PUBLIC_URL + '/images/photo-unmesh.png'}/></div>
                         </div>
-                        <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                        <div className="col-md-6" data-animate-effect="fadeInLeft">
                             <div className="about-desc">
                             <span className="heading-meta">Welcome</span>
                             <h3>Hi! My name is Unmesh Patki!</h3>

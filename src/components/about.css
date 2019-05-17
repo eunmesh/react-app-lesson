@@ -3,7 +3,8 @@
 .about-img{
     top:-50px;
     right:-100px;
-    height:400px;
+    width:50%;
+    max-height:100%;
 }
 .container-fluid ul{
     padding-inline-start: 18px;

@@ -3,11 +3,6 @@ import {Link} from 'react-router-dom';
 
 
 class Sidebar extends Component {
-    /* constructor(props){
-        super(props);
-        active-classname;
-    } */
-
 
     render() {
         return (
