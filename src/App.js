@@ -12,7 +12,7 @@ import Work from './components/work';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio">
       
       <switch>
       {/*  ---------SIDE BAR AND HOME MODULE-------------------- */}
