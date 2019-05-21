@@ -122,6 +122,33 @@
 
 	};
 
+
+	// Click manu and close the sidebar
+
+	var menuClick = function(){
+		
+		$(document).click(function(e){
+			if(e.target.child())
+			
+				if ( $('body').hasClass('offcanvas') ) {
+
+					$('body').removeClass('offcanvas');
+					$('.js-colorlib-nav-toggle').removeClass('active');
+				
+				}
+			
+		});
+
+		$(window).scroll(function(){
+			if ( $('body').hasClass('offcanvas') ) {
+
+    			$('body').removeClass('offcanvas');
+    			$('.js-colorlib-nav-toggle').removeClass('active');
+			
+	    	}
+		});
+	}; 
+
 	var sliderMain = function() {
 		
 	  	$('#colorlib-hero .flexslider').flexslider({
@@ -188,6 +215,7 @@
 		fullHeight();
 		contentWayPoint();
 		burgerMenu();
+		clickMenu();
 		mobileMenuOutsideClick();
 		sliderMain();
 		stickyFunction();
