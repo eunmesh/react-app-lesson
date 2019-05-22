@@ -34,7 +34,7 @@ class Sidebar extends Component {
                     <p><small>
                     {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
                         Copyright © All rights reserved <br/>Theme by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                        {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}  </small> </p>
+                        {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}  <span>Images crdit: <a href="http://unsplash.com" target="_blank">unsplash.com</a></span></small> </p>
                 </div>
             </aside> 
             </div>
