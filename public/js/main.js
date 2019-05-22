@@ -125,9 +125,9 @@
 
 	// Click manu and close the sidebar
 
-	var clickMenu = function(){
+	var clickMenu = function() {
 		
-		$('#navbar a:not([class="external"])').click(function(e){
+		$('#navbar a:not([class="colorlib-active"])').click(function(e){
 			
 			
 				if ( $('body').hasClass('offcanvas') ) {
@@ -215,10 +215,11 @@
 		fullHeight();
 		contentWayPoint();
 		burgerMenu();
-		clickMenu();
+		
 		mobileMenuOutsideClick();
 		sliderMain();
 		stickyFunction();
+		clickMenu();
 	});
 
 
