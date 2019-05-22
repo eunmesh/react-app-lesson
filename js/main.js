@@ -125,10 +125,10 @@
 
 	// Click manu and close the sidebar
 
-	var menuClick = function(){
+	var clickMenu = function(){
 		
-		$(document).click(function(e){
-			if(e.target.child())
+		$('#navbar a:not([class="external"])').click(function(e){
+			
 			
 				if ( $('body').hasClass('offcanvas') ) {
 
