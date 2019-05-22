@@ -11,16 +11,16 @@ render(){
             <div className="colorlib-about">
                     <div className="container-fluid">
                         <div className="row">
-                        {/* <div className="col-md-5">
-                            <div className="" data-animate-effect="fadeInLeft"> <img className="about-img" alt="My Awesome Selfie" src={process.env.PUBLIC_URL + '/images/unmesh-selfie.png'}/></div>
+                        <div className="col-md-5">
+                            <div className="" data-animate-effect="fadeInLeft"> <img className="about-img img-responsive" alt="My Awesome Selfie" src={process.env.PUBLIC_URL + '/images/unmesh-selfie.png'}/></div>
                                 
-                            <div className="col-md-12 btn-center"><Link to="/images/Resume.pdf" class="btn btn-primary btn-learn" target="_blank" >Download CV!</Link></div>
+                            
                           
-                        </div> */}
+                        </div> 
 
 
                         {/* removed "in" from classname on line 57 from panel 1 */}
-                        <div className="col-md-4"></div>
+                        
                         <div className="col-md-7" data-animate-effect="fadeInLeft">
                             <div className="about-desc">
                             <span className="heading-meta">Dear Visitor</span>
