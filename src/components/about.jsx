@@ -12,7 +12,7 @@ render(){
                     <div className="container-fluid">
                         <div className="row">
                         <div className="col-md-5">
-                            <div className="" data-animate-effect="fadeInLeft"> <img className="about-img img-responsive" alt="My Awesome Selfie" src={process.env.PUBLIC_URL + '/images/unmesh-selfie.png'}/></div>
+                            <div className="" data-animate-effect="fadeInLeft"> <img className="about-img-selfie img-responsive" alt="My Awesome Selfie" src={process.env.PUBLIC_URL + '/images/unmesh-selfie.png'}/></div>
                                 
                             
                           
