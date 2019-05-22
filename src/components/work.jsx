@@ -41,7 +41,7 @@ class Work extends Component{
                             <img className="project_image" src = {process.env.PUBLIC_URL + '/images/work-2.jpg'}></img>
                             <div className="desc">
                                 <div className="con">
-                                <h3><Link to="/about">Work 02</Link></h3>
+                                <h3><Link to="#">Work 02</Link></h3>
                                 <span>Web app design</span>
                                 <p className="icon">
                                     <span><a href="#"><i className="icon-share3" /></a></span>
