@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './introduction.css';
+import { Link } from 'react-router-dom';
 
 
 class Introduction extends Component {
@@ -19,25 +20,29 @@ class Introduction extends Component {
                             <span className="heading-meta">Welcome</span>
                             <h3>Hi! My name is Unmesh Patki!</h3>
                             
-                            <ul className="intro-list">
+                            <ul className="intro-list-skills">
                                 <li>I DESIGN.</li>
                                 <li>I DRAW.</li>
                                 <li>I READ.</li>                            
-                            
                             </ul>
-                            
+                            <Link to="/about" class="lead">Read More About Me <i class="icon-arrow-right3"></i></Link>
                             
                             </div>
+
+
+
+
+
                             {/* <div className="fancy-collapse-panel">
                             <div className="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                 <div className="panel panel-default">
                                 <div className="panel-heading" role="tab" id="headingOne">
                                     <h4 className="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Why choose me?
+                                    <a className="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">I Design
                                     </a>
                                     </h4>
                                 </div>
-                                <div id="collapseOne" className="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div id="collapseOne" className="panel-collapse collapse out" role="tabpanel" aria-labelledby="headingOne">
                                     <div className="panel-body">
                                     <div className="row">
                                         <div className="col-md-6">
@@ -53,7 +58,7 @@ class Introduction extends Component {
                                 <div className="panel panel-default">
                                 <div className="panel-heading" role="tab" id="headingTwo">
                                     <h4 className="panel-title">
-                                    <a className="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">What I do?
+                                    <a className="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">I Draw
                                     </a>
                                     </h4>
                                 </div>
@@ -70,7 +75,7 @@ class Introduction extends Component {
                                 <div className="panel panel-default">
                                 <div className="panel-heading" role="tab" id="headingThree">
                                     <h4 className="panel-title">
-                                    <a className="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">My Specialties
+                                    <a className="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">I Read
                                     </a>
                                     </h4>
                                 </div>

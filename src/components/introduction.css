@@ -35,7 +35,20 @@ font-weight: 500;
 padding-top: 25px;
 }
 
-.container-fluid ul{
-    padding-inline-start: 0px !important;
+.container-fluid ul.intro-list-skills{
+    padding-inline-start: 0px;
     list-style: none;
+    margin-left:0px;
+}
+
+.lead {
+
+text-transform: uppercase;
+letter-spacing: 2px;
+color: #000;
+
+margin-bottom: 20px;
+font-size: 14px;
+font-weight: 300;
+line-height: 1.4;
 }
