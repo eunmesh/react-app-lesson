@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 import './work.css';
 
 class Work extends Component{
@@ -24,8 +25,8 @@ class Work extends Component{
                             <img className="project_image" src = {process.env.PUBLIC_URL + '/images/work-1.jpg'}></img>
                             <div className="desc">
                                 <div className="con">
-                                <h3><a href="work-single.html">Work 01</a></h3>
-                                <span>Branding, Ilustration</span>
+                                <h3 className="work-title"><Link to="/work/work_detail">UX Research: Business Account Origination</Link></h3>
+                                <span>UX Research</span>
                                 <p className="icon">
                                     <span><a href="#"><i className="icon-share3" /></a></span>
                                     <span><a href="#"><i className="icon-eye" /> 100</a></span>
@@ -40,8 +41,8 @@ class Work extends Component{
                             <img className="project_image" src = {process.env.PUBLIC_URL + '/images/work-2.jpg'}></img>
                             <div className="desc">
                                 <div className="con">
-                                <h3><a href="work-single.html">Work 02</a></h3>
-                                <span>Logo, Web, Branding</span>
+                                <h3><Link to="/about">Work 02</Link></h3>
+                                <span>Web app design</span>
                                 <p className="icon">
                                     <span><a href="#"><i className="icon-share3" /></a></span>
                                     <span><a href="#"><i className="icon-eye" /> 100</a></span>
@@ -51,7 +52,7 @@ class Work extends Component{
                             </div>
                             </div>
                         </div>
-                        </div>
+                    </div>
                 </div>
             </div>
 

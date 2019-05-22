@@ -8,6 +8,7 @@
 }
 .container-fluid ul{
     padding-inline-start: 18px;
+    
 }
 .btn{
     font-weight: 700;
@@ -16,3 +17,6 @@
     text-align: center;
     margin-bottom: 2em;
 }
+.container-fluid{
+    padding-top: 25px;
+    }

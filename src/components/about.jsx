@@ -26,7 +26,7 @@ render(){
                             <span className="heading-meta">Dear Visitor</span>
                             <h3>Hi! My name is Unmesh Patki!</h3>
                             
-                            <p>
+                        
                                 <ul>
                                     <li> I am a <strong>UX design professional</strong>.</li>
                                     <li> More than 14 years of experience in IT service and product industry.<strong>I help enterprise product design and development teams create powerful, valuable and profitable user experiences</strong>. </li>           
@@ -44,7 +44,7 @@ render(){
                                 </ul>
 
 
-                            </p>
+                            
                             
 
                             </div>

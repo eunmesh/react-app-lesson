@@ -24,12 +24,18 @@ h3{
     font-weight: 600;
 }
 
-ul.intro-list{
-list-style: none;
+.intro-list{
+
 text-transform: uppercase;
 letter-spacing: 2px;
-font-weight: normal;
-padding-inline-start: 0px;
+font-weight: 500;
 }
 
+.container-fluid{
+padding-top: 25px;
+}
 
+.container-fluid ul{
+    padding-inline-start: 0px !important;
+    list-style: none;
+}
