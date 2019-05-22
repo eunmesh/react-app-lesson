@@ -20,7 +20,7 @@ class Work extends Component{
 					</div>
 
                     <div className="row">
-                        <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                        <div className="col-md-6" data-animate-effect="fadeInLeft">
                             <div className="project">
                             <img className="project_image" src = {process.env.PUBLIC_URL + '/images/work-1.jpg'}></img>
                             <div className="desc">

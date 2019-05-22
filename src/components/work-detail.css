@@ -4,4 +4,10 @@
 
 .colorlib-heading{
     margin-bottom:0.2em;
+    
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 500; 
 }
+

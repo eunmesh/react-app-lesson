@@ -13,7 +13,7 @@ render(){
                 <div className="row">
                 <div className="col-md-6 col-md-offset-3 col-md-pull-3">
                     <span className="heading-meta">Portfolio</span>
-                    <h2 className="colorlib-heading animate-box" data-animate-effect="fadeInLeft">UX Research: Business Account Origination</h2>
+                    <h2 className="colorlib-heading" data-animate-effect="fadeInLeft">UX Research: Business Account Origination</h2>
                 </div>
                 </div>
                 <div className="row">
