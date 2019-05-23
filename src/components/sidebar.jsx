@@ -18,8 +18,8 @@ class Sidebar extends Component {
                         <li className={(this.props.activeclass === "Work") ? "colorlib-active" : "" }><Link to="/work">Work</Link></li>
                         <li className={(this.props.activeclass === "About") ? "colorlib-active" : "" }><Link to="/about">About</Link></li>
                         <li className={(this.props.activeclass === "Art") ? "colorlib-active" : "" }><Link to="/art">Art</Link></li>
-                        <li className={(this.props.activeclass === "Blog") ? "colorlib-active" : "" }><Link to="/blog">Blog</Link></li>
-                        <li className={(this.props.activeclass === "Contact") ? "colorlib-active" : "" }><Link to="/contact">Contact</Link></li>
+                        {/* <li className={(this.props.activeclass === "Blog") ? "colorlib-active" : "" }><Link to="/blog">Blog</Link></li>*/}
+                        <li className={(this.props.activeclass === "Contact") ? "colorlib-active" : "" }><Link to="/contact">Contact</Link></li> 
                     </ul>
                 </nav>
 

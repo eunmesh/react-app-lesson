@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import {BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import Sidebar from './components/sidebar';
 import Introduction from './components/introduction';
@@ -8,6 +8,7 @@ import About from './components/about';
 import Art from './components/art';
 import Work from './components/work';
 import Work_detail from './components/work-detail';
+import Contact from './components/contact';
 
 
 class App extends Component {
@@ -61,7 +62,14 @@ class App extends Component {
           {/*  ---------TBD: SIDE BAR AND BLOG MODULE----------------- */}
 
           {/*  ---------TBD: SIDE BAR AND CONTACT MODULE-------------- */}
-
+          <Route exact path='/contact' render={()=>(
+        
+                <div className="App" id="colorlib-page">
+                  <Sidebar activeclass="Contact"></Sidebar> 
+                      <div id="colorlib-main">
+                        <Contact></Contact>
+                      </div>
+                </div>)}/>
 
 
           {/*  ---------TBD: work details module------------------ */}
