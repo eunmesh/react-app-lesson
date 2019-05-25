@@ -25,7 +25,7 @@ class Introduction extends Component {
                                 <li>I DRAW.</li>
                                 <li>I READ.</li>                            
                             </ul>
-                            <Link to="/about" class="lead">Read More About Me <i class="icon-arrow-right3"></i></Link>
+                            <Link to="/about" className="lead">Read More About Me <i class="icon-arrow-right3"></i></Link>
                             
                             </div>
 

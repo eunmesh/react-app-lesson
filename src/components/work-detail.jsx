@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './work-detail.css'
 
 
-class Work_detail extends Component {
+class Work_Detail extends Component {
 
 render(){
 
@@ -67,12 +67,12 @@ Our team (my designer colleague and I) focused on the business customers (and an
                         <p>
                             Three user groups resonated the same behavior and expectations from the bank. The main finding was "Dont treat me just a number"
                             
-                            <strong>Startup Users: </strong> Trust me, help me establish my business.
+                            <br/><strong>Startup Users: </strong> Trust me, help me establish my business.
                             Expect funding, advice and networking platform
-                            <strong>Lifestyle Users:</strong>Guide me to sustain.
+                            <br/><strong>Lifestyle Users:</strong> Guide me to sustain.
                             Sensitive to specifics of offerings (e.g. fees)
                             Expect bank to provide business support function (e.g. payroll  mgmt)
-                            <strong>Entrepreneur:</strong>Understand me, my business and support the ecosystem
+                            <br/><strong>Entrepreneur:</strong> Understand me, my business and support the ecosystem
                             Expect extra support (e.g. loans for their subcontractors)
                             <br/>
                             <strong>Expectations from AO Process:</strong><br/>
@@ -108,4 +108,4 @@ Our team (my designer colleague and I) focused on the business customers (and an
 
 }
 
-export default Work_detail;
+export default Work_Detail;

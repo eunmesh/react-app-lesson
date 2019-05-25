@@ -7,7 +7,7 @@ import Introduction from './components/introduction';
 import About from './components/about';
 import Art from './components/art';
 import Work from './components/work';
-import Work_detail from './components/work-detail';
+import Work_Detail from './components/work-detail';
 import Contact from './components/contact';
 
 
@@ -78,7 +78,7 @@ class App extends Component {
             <div className="App" id="colorlib-page">
               <Sidebar activeclass="Work"></Sidebar> 
                   <div id="colorlib-main">
-                    <Work_detail></Work_detail>
+                    <Work_Detail></Work_Detail>
                   </div>
             </div>)}/>
           {/* <Redirect from='*' to='/' /> */}
