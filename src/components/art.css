@@ -1,3 +1,26 @@
-div.artworks{
+/* div.artworks{
     clear:left;
+} */
+
+.fit-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
+
+
+.img-box{
+
+    height:220px;
+}
+.painting-desc{
+    text-align: center;
+    line-height: 1.2em;
+    padding: 5px 0px; 
+}
+.painting-wrapper{
+    display: inline-block;
+    margin-bottom:1.5em;
+    font-size: 14px;
+}
+

@@ -11,39 +11,38 @@ render(){
             <div className="colorlib-about">
                     <div className="container-fluid">
                         <div className="row">
-                        <div className="col-md-5">
+                        {/* <div className="col-md-5">
                             <div className="" data-animate-effect="fadeInLeft"> <img className="about-img-selfie img-responsive" alt="My Awesome Selfie" src={process.env.PUBLIC_URL + '/images/unmesh-selfie.png'}/></div>
                                 
                             
                           
-                        </div> 
+                        </div>  */}
 
 
                         {/* removed "in" from classname on line 57 from panel 1 */}
                         
                         <div className="col-md-7" data-animate-effect="fadeInLeft">
                             <div className="about-desc">
-                            <span className="heading-meta">Dear Visitor</span>
-                            <h3>Hi! My name is Unmesh Patki!</h3>
+                            <span className="heading-meta">Bio</span>
+                            <h3>I am a UX design professional.</h3>
                             
                         
-                                <ul>
-                                    <li> I am a <strong>UX design professional</strong>.</li>
-                                    <li> More than 14 years of experience in IT service and product industry.<strong>I help enterprise product design and development teams create powerful, valuable and profitable user experiences</strong>. </li>           
-                                </ul>
+                                <p>
+                                 <strong> I help enterprise product design and development teams create valuable and profitable user experiences</strong>.          
+                                </p>
                              
                                 <strong>Experience Highlights</strong>:
                                 <ul>
-
+                                    <li>More than 14 years of experience in IT service and product industry.</li>
                                     <li>Experience leading UX design efforts comprising <strong>“Research to Implementation”</strong> phases to deliver online experiences that increase customer engagement and maximize business goals.</li>
                                     <li>Have completed and contributed to several projects including <strong>website and mobile designs</strong> for insurance, banking/finance and telecommunication domains.
                                     </li>
                                     <li>Experience working in <strong>SAFe agile</strong> development methodology. Ability to communicate design concepts across different audiences - stakeholder, product owner, business analyst and developer.
                                     </li>
-                                    <li>Have <strong>Usability analyst certification (CUA)</strong> with Human Factors International in 2008. </li>
+                                    <li><strong>Certified Usability Analyst</strong>, Human Factors International, 2008. </li>
                                 </ul>
 
-
+                                <br/>
                             
                             
 
@@ -61,14 +60,13 @@ render(){
                                     <div className="panel-body">
                                     
                                         <div className="col-md-12">
-                                        <p>Indian Institute of Science, India
+                                        <p>
+                                            Certified Usability Analyst, HFI, 2008.
                                         <br/>
-                                        M.Des Product Design, 2001–2003 <br/>
-                                        Project based learning involving elements of design, visual design, user research, ergonomics, tangible interactions, prototyping and testing methods.
+                                            M.Des Product Design, 2001–2003 <br/>
                                         </p>
                                         </div>
                                         
-                                    
                                     </div>
                                 </div>
                                 </div>
@@ -118,7 +116,7 @@ render(){
                             </div>
 
                             <div className="row">
-                            <div className="col-md-12 btn-center"><Link to="/images/Resume.pdf" class="btn btn-primary btn-learn" target="_blank" >Download CV!</Link></div>
+                            <div className="col-md-12 btn-center"><Link to="/images/Resume.pdf" class="btn btn-primary btn-learn" target="_blank" >Download Resume</Link></div>
                             </div>
 
                             

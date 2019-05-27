@@ -51,7 +51,7 @@ class App extends Component {
           
       
           {/*  ---------TBD: SIDE BAR AND ART MODULE------------------ */}
-          <Route exact path='/art' render={()=>(
+          <Route exact path='/paintings' render={()=>(
         
               <div className="App" id="colorlib-page">
                 <Sidebar activeclass="Art"></Sidebar> 

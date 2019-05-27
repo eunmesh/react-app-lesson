@@ -3,10 +3,6 @@
     text-align: left;
 }
 
-.heading-meta {
-    color: #FF3366;
-}
-
 img.about-img{
     margin-top:15px;
     width:auto;
@@ -15,10 +11,7 @@ img.about-img{
     top:-20px;
 }
 
-.colorlib-about{
-    padding-top:3em;
 
-}
 
 h3{
     font-weight: 600;

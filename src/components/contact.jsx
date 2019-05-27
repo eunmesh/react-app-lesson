@@ -10,8 +10,8 @@ class Contact extends Component {
                     <div className="container-fluid">
                         <div className="row">
                         <div className="col-md-12">
-                            <span className="heading-meta">Read</span>
-                            <h2 className="colorlib-heading" data-animate-effect="fadeInLeft">Get in Touch</h2>
+                            <span className="heading-meta">Contact</span>
+                            <h2 className="colorlib-heading" data-animate-effect="fadeInLeft">Where can you contact me</h2>
                         </div>
                         </div>
                         <div className="row">

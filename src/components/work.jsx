@@ -14,8 +14,8 @@ class Work extends Component{
                 <div className="container-fluid">
 					<div className="row">
 						<div className="col-md-6">
-							<span className="heading-meta">Portfolio</span>
-							<h2 className="colorlib-heading" data-animate-effect="fadeInLeft">My Work</h2>
+							<span className="heading-meta">What I do</span>
+							<h2 className="colorlib-heading" data-animate-effect="fadeInLeft">A Glimpse of some of my work</h2>
 						</div>
 					</div>
 
@@ -25,7 +25,7 @@ class Work extends Component{
                             <img className="project_image" src = {process.env.PUBLIC_URL + '/images/work-1.jpg'}></img>
                             <div className="desc">
                                 <div className="con">
-                                <h3 className="work-title"><Link to="/work/work_detail">UX Research: Business Account Origination</Link></h3>
+                                <h3 className="work-title"><Link to="/work/work_detail">Business Account Origination: User Research</Link></h3>
                                 <span>UX Research</span>
                                 <p className="icon">
                                     <span><a href="#"><i className="icon-share3" /></a></span>
