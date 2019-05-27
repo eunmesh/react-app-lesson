@@ -18,7 +18,7 @@ class Introduction extends Component {
                         <div className="col-md-6" data-animate-effect="fadeInLeft">
                             <div className="about-desc">
                             <span className="heading-meta">Welcome</span>
-                            <h3>Hi. I'm Unmesh</h3>
+                            <h3>Hi. I'm Unmesh.</h3>
                             
                             <ul className="intro-list-skills">
                                 <li>I DESIGN.</li>
