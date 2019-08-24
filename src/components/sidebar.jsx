@@ -11,7 +11,7 @@ class Sidebar extends Component {
 
             <aside id="colorlib-aside" role="complementary" className="border js-fullheight">
                 {/* <h1 id="colorlib-logo"><a href="/"><span>Wo</span><span>rk</span></a></h1> */}
-                <div id="colorlib-logo"><Link to="/"><img src={process.env.PUBLIC_URL + '/images/logo.svg'} alt="My website's logo"></img></Link></div>
+                <div id="colorlib-logo"><Link to="/"><img src={process.env.PUBLIC_URL + '/images/my-logo.svg'} alt="My website's logo"></img></Link></div>
                 <nav id="colorlib-main-menu" role="navigation">
                     <ul id="navbar">
                         <li className={(this.props.activeclass === "Home") ? "colorlib-active" : "" }><Link to="/">Home</Link></li>

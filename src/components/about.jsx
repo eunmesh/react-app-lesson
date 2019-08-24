@@ -28,7 +28,7 @@ render(){
                             
                         
                                 <p>
-                                 <strong> I help enterprise product design and development teams create valuable and profitable user experiences</strong>.          
+                                 <strong> I help teams create valuable and profitable user experiences</strong>.          
                                 </p>
                              
                                 <strong>Experience Highlights</strong>:
@@ -98,8 +98,8 @@ render(){
                                 </div>
                                 <div id="collapseThree" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                     <div className="panel-body">
-                                    <p>I love doing plein-air paintings. I carry my art-toolkit with me — iPad or watercolor kit or sketchbook. I love doing landscapes or cityscapes in watercolor. 
-                                            I also love to explore the concepts in maths, physics or science in general. I love to read about scientists to get inspired. </p>
+                                    <p>I love doing plein-air paintings. I carry my art-toolkit with me — iPad or watercolor kit or my sketchbook. I love doing landscapes or cityscapes in watercolor. 
+                                            I love to read the concepts in maths, physics or science in general. </p>
                                             <p> <strong>Few of my favorite books are:</strong>
                                             </p>
                                     <ul>

@@ -858,9 +858,9 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: #F75940;
+  background: #FF3366;
   color: #fff;
-  border: 2px solid #F75940; }
+  border: 2px solid #FF3366; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #f86e58 !important;
     border-color: #f86e58 !important; }

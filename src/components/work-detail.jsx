@@ -12,7 +12,7 @@ render(){
             <div className="container-fluid">
                 <div className="row">
                 <div className="col-md-7">
-                    <span className="heading-meta">What I do</span>
+                    <span className="heading-meta">Case study</span>
                     <h2 className="colorlib-heading" data-animate-effect="fadeInLeft">Business Account Origination: User Research</h2>
                 </div>
                 </div>
@@ -25,7 +25,7 @@ render(){
                     </p>
                     <p>
                     Our client bank was working on a project to offer an online account origination experience for their new customers - efficient and smart process. The competition banks were using freebies as a tool to attract new users as one of their strategies. 
-                    </p><p>We adopted the UCD appraoch to get initial direction in the project by conducting user search to understand what do the business user segment think of the bank selection and account origination; what are their influencing factors behind selecting or switching a bank account along with the pain points.</p>
+                    </p><p>We adopted the UCD appraoch to get initial direction in the project by conducting user search to understand what do the business user segment think of the bank selection and account origination; what are their influencing factors behind selecting or switching a bank account.</p>
                     <p>I worked on preparing and conducting usability interviews (as a part of one team along with a designer colleague), to understand their mental model, expectations and pain points etc. and the other team focused on PET (Persuasion, Emotion and Trust) interviews, to find out underlying drives and blocks for the users.
                     We derived valuable insights in what our users' experactations are from the bank's business account origination.
                     </p>
